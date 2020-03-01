@@ -101,7 +101,7 @@ public class Program2 {
 					//for(int n=1; n<3; n++)
 					for(int i = 0; i<3; i++)
 						System.out.printf("\t %dyear student language%d : %3d\n",j+1, i+1, kors[j][i]);
-					
+						//System.out.printf("\t language%d : %3d\n", i+1, kors[j][i]);
 					System.out.printf("\t total score : %3d\n",total);
 					System.out.printf("\t average : %6.2f\n",avg);
 					System.out.println("式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式");
